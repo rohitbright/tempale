@@ -287,7 +287,8 @@ li.develoment {
     display: inline-block;
     /* padding: 13px; */
     font-weight: 700;
-    padding: 26px 42px;
+        padding: 24px 32px;
+   
 }
 
 i.fa.fa-instagram {
@@ -521,9 +522,9 @@ h4.got {
         line-height: 33px;
         font-size: 18px;
         padding: 24px 0px;
-    }
 
     li.develoment {
+    }   
 
         padding: 14px 9px;
     }
