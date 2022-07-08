@@ -43,10 +43,7 @@ a.navbar-brand {
 .container-fluid {
     padding: 10px 12px 2px 100px;
 }
-.container-fluid {
-   
-    padding-left: 126px;
-}
+
 
 small {
     font-size: 22px;
@@ -342,9 +339,7 @@ footer {
 h4.got {
     padding: 0px;
 }
-.container-fluid {
-    padding: 10px 0px 0px 204px;
-}
+
 @media (max-width:590px) {
 
     .navbar-expand-sm .navbar-nav .nav-link {
@@ -355,9 +350,6 @@ h4.got {
     }
     
 
-    .container-fluid {
-
-        padding: 0px;
     }
 
     h2.our {
