@@ -17,9 +17,7 @@ li.nav-item {
 
 
 
-.container-fluid {
-    padding: 9px 0px 0px 122px;
-}
+
 li.nav-item {
     font-size: 24px;
     font-weight: 600;
@@ -42,6 +40,8 @@ a.navbar-brand {
     padding-top: 51px;
 }
 
+.container-fluid {
+    padding: 10px 12px 2px 100px;
 }
 
 small {
