@@ -43,6 +43,10 @@ a.navbar-brand {
 .container-fluid {
     padding: 10px 12px 2px 100px;
 }
+.container-fluid {
+   
+    padding-left: 126px;
+}
 
 small {
     font-size: 22px;
