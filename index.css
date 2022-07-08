@@ -4,12 +4,14 @@
     box-sizing: border-box;
 
 }
+
 .row {
-    
-     margin-top: calc(-0 * var(--bs-gutter-y)); 
-     margin-right: calc(-.0 * var(--bs-gutter-x)); 
-    margin-left: calc(-.0* var(--bs-gutter-x)); 
+
+    margin-top: calc(-0 * var(--bs-gutter-y));
+    margin-right: calc(-.0 * var(--bs-gutter-x));
+    margin-left: calc(-.0* var(--bs-gutter-x));
 }
+
 li.nav-item {
 
     font-size: 27px;
@@ -43,7 +45,6 @@ a.navbar-brand {
 .container-fluid {
     padding: 10px 12px 2px 100px;
 }
-
 
 small {
     font-size: 22px;
@@ -327,6 +328,7 @@ p.call {
     font-weight: 800;
     color: #06344b;
 }
+
 .footer {
     padding: 50px 0px;
 }
@@ -340,6 +342,8 @@ h4.got {
     padding: 0px;
 }
 
+
+
 @media (max-width:590px) {
 
     .navbar-expand-sm .navbar-nav .nav-link {
@@ -348,8 +352,11 @@ h4.got {
         font-size: 12px;
         text-align: center;
     }
-    
 
+
+    .container-fluid {
+
+        padding: 0px;
     }
 
     h2.our {
@@ -413,10 +420,11 @@ h4.got {
     }
 
     h1 {
-        
-            margin-left: 69px;
+
+        margin-left: 69px;
         font-size: 40px !important;
     }
+
     h4.got {
         margin: 0px;
         letter-spacing: 1px;
@@ -425,6 +433,7 @@ h4.got {
         font-weight: 700;
         font-size: 15px;
     }
+
     p.working {
         font-family: 'lato', Verdana, Arial, Tahoma, sans-serif;
         font-weight: 500;
@@ -491,50 +500,65 @@ h4.got {
         padding: 0px;
         margin: -3px;
     }
+
     .name button {
         background: #06344b;
         /* color: white; */
         margin: 0px 50px;
     }
+
     a {
         font-size: 11px;
     }
+
     h2.lets {
         font-size: 26px;
         padding-top: 22px;
         /* color: #06344b; */
     }
+
     p.that {
-       
+
         line-height: 33px;
         font-size: 18px;
         padding: 24px 0px;
     }
+
     li.develoment {
-       
+
         padding: 14px 9px;
     }
-    i.fa.fa-instagram {
-        font-size: 21px;}
-        i.fa.fa-facebook-official {
-            font-size: 21px;
-}
-h3.last {
-    margin-left: 77px;
-}
-p.working {
- 
-    font-size: 16px;
-    font-family: sans-serif;
-    
-} button {
-    padding: 6px;
-    font-size: 13px;
-}
-img.img {
-    width: 68%;
-    padding-left: 16px;
-}
 
-h4 {
-    padding-top: 7px;}}
+    i.fa.fa-instagram {
+        font-size: 21px;
+    }
+
+    i.fa.fa-facebook-official {
+        font-size: 21px;
+    }
+
+    h3.last {
+        margin-left: 77px;
+    }
+
+    p.working {
+
+        font-size: 16px;
+        font-family: sans-serif;
+
+    }
+
+    button {
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    img.img {
+        width: 68%;
+        padding-left: 16px;
+    }
+
+    h4 {
+        padding-top: 7px;
+    }
+}
