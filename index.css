@@ -43,7 +43,7 @@ a.navbar-brand {
 }
 
 .container-fluid {
-      padding: 10px 12px 2px 121px;
+    padding: 10px 12px 2px 100px;
 }
 
 small {
@@ -65,7 +65,7 @@ h1 {
 }
 
 p {
-
+    font-family: 'lato',Verdana,Arial,Tahoma,sans-serif;
     font-weight: 500;
     line-height: 1.8;
     font-size: 21px;
@@ -87,7 +87,7 @@ button {
     margin-top: 35px;
 }
 
-h3,
+
 h3 {
     display: inline-block;
     font-size: 19px;
@@ -106,7 +106,7 @@ h2.our {
     padding: 52px 10px 30px 5px;
 }
 
-p.whether {
+p.whether {font-family: 'lato',Verdana,Arial,Tahoma,sans-serif;
     font-size: 26px;
 }
 
@@ -165,7 +165,7 @@ h4.apps {
     line-height: 52px;
 }
 
-p.from {
+p.from {font-family: 'lato',Verdana,Arial,Tahoma,sans-serif;
     font-size: 28px;
     color: #02344c;
 }
@@ -194,7 +194,7 @@ img.music {
 
 }
 
-p.from {
+p.from {font-family: 'lato',Verdana,Arial,Tahoma,sans-serif;
     font-size: 20px;
     line-height: 76px;
     font-size: 21px;
@@ -287,8 +287,7 @@ li.develoment {
     display: inline-block;
     /* padding: 13px; */
     font-weight: 700;
-        padding: 24px 32px;
-   
+    padding: 26px 31px;
 }
 
 i.fa.fa-instagram {
@@ -303,7 +302,7 @@ i.fa.fa-facebook-official {
 
 h4.ban {
     display: inline-block;
-    width: 30%;
+ 
     margin: 0px;
     text-align: center;
     color: #06344b;
@@ -323,7 +322,7 @@ p.us {
 p.call {
     display: inline-block;
     /* float: right; */
-    width: 26%;
+    font-family: 'lato',Verdana,Arial,Tahoma,sans-serif;
     text-align: end;
     font-size: 25px;
     font-weight: 800;
@@ -352,19 +351,28 @@ h4.got {
         font-size: 12px;
         text-align: center;
     }
-
+    nav.navbar.navbar-expand-sm {
+        padding-top: 21px;
+    }
 
     .container-fluid {
 
         padding: 0px;
+    }button.navbar-toggler.collapsed {
+        margin-right: 21px;
+        margin-top: 0px;
+    }button.navbar-toggler {
+        margin-right: 20px;
+        margin-top: 0px;
     }
 
-    h2.our {
-        font-size: 36px;
-        padding: 52px 10px 30px 32px;
+   
+
+    a.navbar-brand {
+      
+        padding: 0px;
     }
-
-
+    
     section.best {
         padding-top: 0px;
     }
@@ -378,8 +386,7 @@ h4.got {
 
     h2.our {
         font-size: 36px;
-        padding: 20px 0px 32px 24px;
-        padding: 52px 3px 27px -1px;
+     
     }
 
     .box-2 {
@@ -388,12 +395,14 @@ h4.got {
         padding: 12px 23px;
     }
 
-    button {
+.box-3 {
+ 
+    font-size: 0px;
+}
+    
 
-        margin-left: 90px;
-    }
 
-    h3,
+   
     h3 {
         margin-left: 89px;
         padding-top: 18px;
@@ -402,10 +411,10 @@ h4.got {
     p.whether {
         font-size: 26px;
         /* padding: 0px; */
-        padding: 1px 2px 5px 18px;
+     
     }
 
-    h3,
+   
     h3 {
         margin-left: 17px;
         padding-top: 18px;
@@ -421,7 +430,7 @@ h4.got {
 
     h1 {
 
-        margin-left: 69px;
+      
         font-size: 40px !important;
     }
 
@@ -429,7 +438,7 @@ h4.got {
         margin: 0px;
         letter-spacing: 1px;
         padding: 0px;
-        text-align: start;
+       
         font-weight: 700;
         font-size: 15px;
     }
@@ -438,52 +447,39 @@ h4.got {
         font-family: 'lato', Verdana, Arial, Tahoma, sans-serif;
         font-weight: 500;
         font-size: 19px;
-        text-align: center;
+    
     }
 
     small {
         font-size: 19px;
-        margin-left: 53px;
     }
 
-    p.from {
 
-        text-align: center;
-        padding-left: 28opx;
-        margin-left: 40px;
-        font-size: 15px;
-    }
-
-    h4.apps {
-        font-size: 23px;
-
-        text-align: center;
-    }
+p.from {
+ 
+ font-size: 17px;
+    
+    line-height: 31px;
+    letter-spacing: -.45px;
+   
+    width: 100%;
+}
 
     h2.our {
         font-size: 26px
     }
 
     p.whether {
-        font-size: 18px;
-        text-align: center;
+        font-size: 21px;
+        line-height: 29px;
     }
-
     h4 {
-
+padding: 0px;
         font-size: 18px;
-        text-align: center;
+     
     }
 
-    h2.page {
 
-        font-size: 22px;
-    }
-
-    h2.page-1 {
-        font-size: 14px;
-        margin-left: 47px;
-    }
 
     section {
         padding: 50px 0px;
@@ -500,11 +496,13 @@ h4.got {
         padding: 0px;
         margin: -3px;
     }
-
     .name button {
         background: #06344b;
         /* color: white; */
-        margin: 0px 50px;
+        margin: 0px;
+        /* margin-left: 48px; */
+        padding: 19px 92px;
+        /* margin: 0px 50px; */
     }
 
     a {
@@ -522,9 +520,9 @@ h4.got {
         line-height: 33px;
         font-size: 18px;
         padding: 24px 0px;
+    }
 
     li.develoment {
-    }   
 
         padding: 14px 9px;
     }
@@ -561,4 +559,49 @@ h4.got {
     h4 {
         padding-top: 7px;
     }
-}
+    
+    h4.apps {
+        font-weight: 700;
+        font-size: 23px;
+        /* text-align: center; */}
+   
+    h2.page {
+        /* text-align: center; */
+        font-size: 28px;
+        font-family: sans-serif;
+        /* padding-bottom: 60px; */
+        color: white;
+        text-align: inherit;
+        padding: 0px;
+    }
+
+    h2.page-1 {
+        font-size: 13px;
+        color: #fff;
+        padding: 20px 0px;
+        border-bottom: 2px solid;
+        border-bottom-style: dotted;
+        /* margin-right: 63px; */
+        display: flex;
+    }section {
+        /* padding: 100px 0px; */
+        padding: 50px 0px;
+    }
+  
+    .box-5 {
+        /* margin-left: 59px; */
+        margin: 0px;
+    } button {
+        padding: 13px 71px;
+        /* border: honeydew; */
+        border: none;
+        font-size: 17px;
+        border: 1px solid;
+        margin-left: 44px;
+    } .name a {
+        font-size: 15px;
+    }.name a {
+        font-size: 15px;
+    }
+   
+} 
